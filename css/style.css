@@ -1,0 +1,45 @@
+* {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+
+}
+h1{
+	font-size: 20px;
+}
+.container{width:100%; text-align: center;}
+.game-container {
+  width: 500px;
+  height: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  color: #fff;
+  border: 1px solid #ccc; 
+  display: grid;
+  grid-template: repeat(8, 1fr)/repeat(8, 1fr);
+}
+
+.box-grid{
+	border: 1px solid #ccc;
+	align-items: center; 
+	justify-content: center;
+}
+
+.text-center {
+  text-align: center; }
+
+.template {
+  display: none; }
+.template .score {
+    color: #868E96; }
+
+
+
+
+@media (max-width: 768px) {
+  .game-container {width: 100%; } 
+}
